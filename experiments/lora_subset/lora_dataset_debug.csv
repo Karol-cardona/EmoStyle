@@ -1,0 +1,1901 @@
+input_text,target_text
+"Base caption: A woman is mysteriously smiling, and a man looks at her
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","A woman is mysteriously smiling, and a man looks at her"
+"Base caption: Three girls and one man are amazed and interested in what they saw
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three girls and one man are amazed and interested in what they saw
+"Base caption: Man looks happy
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks happy
+"Base caption: Kids are happy and enjoy first snow in the year
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Kids are happy and enjoy first snow in the year
+"Base caption: The man is trying to harm the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to harm the other man
+"Base caption: A woman is smiling because she poses on some fashion exhibition
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A woman is smiling because she poses on some fashion exhibition
+"Base caption: The calm man is fixing something in the tube
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The calm man is fixing something in the tube
+"Base caption: The fat woman is happy to sing on the stage
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The fat woman is happy to sing on the stage
+"Base caption: The man and the woman are curious about something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are curious about something
+"Base caption: The woman is worried about the shocked man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is worried about the shocked man
+"Base caption: Scared woman protecting her kid
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Scared woman protecting her kid
+"Base caption: Man looks aggressive and decisive, he just killed some person
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Man looks aggressive and decisive, he just killed some person"
+"Base caption: The woman is angry at the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is angry at the man
+"Base caption: The woman is crying
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is crying
+"Base caption: The woman is trying to harm the scared man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is trying to harm the scared man
+"Base caption: The old man is happy
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The old man is happy
+"Base caption: The group of people are thinking about something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The group of people are thinking about something
+"Base caption: Woman looks indifferent and calm
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks indifferent and calm
+"Base caption: Concentrated man is preparing for a baseball pitch
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Concentrated man is preparing for a baseball pitch
+"Base caption: A woman tries to help the man and treat his injury, and the man looks serious and in pain
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman tries to help the man and treat his injury, and the man looks serious and in pain"
+"Base caption: Man is troubled because kite rope entangled in some junk on the ground
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man is troubled because kite rope entangled in some junk on the ground
+"Base caption: Man is disappointed in another calm man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man is disappointed in another calm man
+"Base caption: The woman is screaming in pain
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is screaming in pain
+"Base caption: Two interested kids are hiding from someone
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two interested kids are hiding from someone
+"Base caption: The couple is happy to have a romantic dinner
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple is happy to have a romantic dinner
+"Base caption: The man and the woman are happy to get marred
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are happy to get marred
+"Base caption: Two men are scared of something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are scared of something
+"Base caption: The man and the woman are shocked by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are shocked by something
+"Base caption: Two men are shooting something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two men are shooting something
+"Base caption: A policeman and a policewoman look serious and concentrated because they have to conduct an investigation and find some clues
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A policeman and a policewoman look serious and concentrated because they have to conduct an investigation and find some clues
+"Base caption: Women are surprised and confused, but they smiling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Women are surprised and confused, but they smiling"
+"Base caption: The happy couple is in a center of attention
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy couple is in a center of attention
+"Base caption: An old man looks surprised with the answer of the girl
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",An old man looks surprised with the answer of the girl
+"Base caption: Old man calms down young friend
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Old man calms down young friend
+"Base caption: The three military men are concentrated on their speech
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The three military men are concentrated on their speech
+"Base caption: The calm man along with the woman are telling about something on tv show
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The calm man along with the woman are telling about something on tv show
+"Base caption: A man looks insistent and asks to to take homeless cats which he carries in the box
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",A man looks insistent and asks to to take homeless cats which he carries in the box
+"Base caption: Two men are shocked by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are shocked by something
+"Base caption: The group of people is having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people is having fun
+"Base caption: The angry woman is arguing with the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The angry woman is arguing with the man
+"Base caption: The girl is happy to see her boyfriend
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The girl is happy to see her boyfriend
+"Base caption: Women have different emotions but all are excited
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women have different emotions but all are excited
+"Base caption: The calm bartender is waiting for customers
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The calm bartender is waiting for customers
+"Base caption: The woman is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is laughing at something
+"Base caption: Two men are calm and serious about something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two men are calm and serious about something
+"Base caption: The woman is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is laughing at something
+"Base caption: A woman looks a bit perplexed but is smiling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A woman looks a bit perplexed but is smiling
+"Base caption: The man and a woman are disappointed
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man and a woman are disappointed
+"Base caption: Kids look perplexed because they are assigned to Santa's role and they don't know what to do
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Kids look perplexed because they are assigned to Santa's role and they don't know what to do
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The woman is happy with some news
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is happy with some news
+"Base caption: Company are enjoying the time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Company are enjoying the time together
+"Base caption: The angry man is trying to shoot somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The angry man is trying to shoot somebody
+"Base caption: A woman is confident and smiles a bit
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A woman is confident and smiles a bit
+"Base caption: The scary woman is posing for photo
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The scary woman is posing for photo
+"Base caption: Two men are greeting other man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two men are greeting other man
+"Base caption: The happy couple is hugging
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy couple is hugging
+"Base caption: The woman is interrogates the man
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The woman is interrogates the man
+"Base caption: The man is trying to kill the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to kill the other man
+"Base caption: A man is excited and distracted from the interlocutor because he is explaining the route
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",A man is excited and distracted from the interlocutor because he is explaining the route
+"Base caption: The happy couple is hugging each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy couple is hugging each other
+"Base caption: A man looks ambitious and initiative and asks a woman about something because he is new to the city
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A man looks ambitious and initiative and asks a woman about something because he is new to the city
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Two men are interested in listening the radio
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two men are interested in listening the radio
+"Base caption: The man is interrogates the other man
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is interrogates the other man
+"Base caption: Man looks ironic and tells funny stories
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks ironic and tells funny stories
+"Base caption: Two men are having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two men are having fun
+"Base caption: Woman looks very annoyed and the man is tired of trying to calm her
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks very annoyed and the man is tired of trying to calm her
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: Man looks smiling with naughtiness and woman looks strict
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks smiling with naughtiness and woman looks strict
+"Base caption: Woman looks perplexed and man is intelligent and helps her
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks perplexed and man is intelligent and helps her
+"Base caption: The man is trying to shoot the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to shoot the other man
+"Base caption: The man is shocked by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is shocked by something
+"Base caption: The man and woman are concentrated and calm
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and woman are concentrated and calm
+"Base caption: The happy man is listening to the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy man is listening to the woman
+"Base caption: People are confused and surprised, they found some ancient artifacts
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","People are confused and surprised, they found some ancient artifacts"
+"Base caption: The man and two women are happy to enjoy the time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and two women are happy to enjoy the time together
+"Base caption: The man is shocked by the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is shocked by the other man
+"Base caption: Man looks calm and smiling gently
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks calm and smiling gently
+"Base caption: Man is kissing his happy wife
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man is kissing his happy wife
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Tho guys are happy to pose for photo
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Tho guys are happy to pose for photo
+"Base caption: The man is laughing at the other man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is laughing at the other man
+"Base caption: Two serious men are having conversation
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two serious men are having conversation
+"Base caption: A group of people is filming and actors look troubled and investigating
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A group of people is filming and actors look troubled and investigating
+"Base caption: The woman is being angry at the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is being angry at the man
+"Base caption: The group of people is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people is laughing at something
+"Base caption: The company is happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The company is happy to be together
+"Base caption: The group of people are having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people are having fun
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Men looks tricky and enjoying their friendship
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Men looks tricky and enjoying their friendship
+"Base caption: The bunch of weaponized people are escaping from the building
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The bunch of weaponized people are escaping from the building
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The anxious man is talking on the phone
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The anxious man is talking on the phone
+"Base caption: Two men are arguing
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are arguing
+"Base caption: Woman looks smiling while thinks of some deceit
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Woman looks smiling while thinks of some deceit
+"Base caption: The woman is trying to shoot the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is trying to shoot the man
+"Base caption: The couple is happy to be with each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple is happy to be with each other
+"Base caption: The man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the woman
+"Base caption: The man and the woman are searching for something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are searching for something
+"Base caption: The woman is scared of something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is scared of something
+"Base caption: A family looks at their dog with anxiety and caution because it seems the dog is ill
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A family looks at their dog with anxiety and caution because it seems the dog is ill
+"Base caption: Three guitarists are happy to play in the band
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three guitarists are happy to play in the band
+"Base caption: Man looks angry and decisive
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man looks angry and decisive
+"Base caption: The woman looks angry at the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman looks angry at the man
+"Base caption: Man looks keen and furious
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man looks keen and furious
+"Base caption: The calm man is talking with a concentrated soldier
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The calm man is talking with a concentrated soldier
+"Base caption: The man is arguing with the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the other man
+"Base caption: A married couple looks happy because they care about each other and the husband brought breakfast in the bed to the wife
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A married couple looks happy because they care about each other and the husband brought breakfast in the bed to the wife
+"Base caption: A group of people look funny and resemble a ghost hunters squad
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A group of people look funny and resemble a ghost hunters squad
+"Base caption: The anxious men are looking at something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The anxious men are looking at something
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The woman is explaining something to the child
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The woman is explaining something to the child
+"Base caption: The happy man is flirting with someone
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy man is flirting with someone
+"Base caption: The calm man is shooting out the shotgun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The calm man is shooting out the shotgun
+"Base caption: Three serious men are having a conversation
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Three serious men are having a conversation
+"Base caption: The couples are glad to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couples are glad to be together
+"Base caption: Two man are interrogated by somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two man are interrogated by somebody
+"Base caption: Men pretend to look like fashion models, they try to be confident and cool
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Men pretend to look like fashion models, they try to be confident and cool"
+"Base caption: Interested kid is smoking a cigarette
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Interested kid is smoking a cigarette
+"Base caption: The man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the woman
+"Base caption: Woman looks pleasantly surprised and uncertain, and man looks confident and hoping
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Woman looks pleasantly surprised and uncertain, and man looks confident and hoping"
+"Base caption: Woman looks happy to give interview
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks happy to give interview
+"Base caption: Two pensive men are spending time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two pensive men are spending time together
+"Base caption: The woman is hugging the other worried woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is hugging the other worried woman
+"Base caption: Six happy men are taking a picture
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Six happy men are taking a picture
+"Base caption: Three men are surprised with something while drinking beer
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three men are surprised with something while drinking beer
+"Base caption: Anxious lovers are about to kiss each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Anxious lovers are about to kiss each other
+"Base caption: Serious people are having a good conversation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Serious people are having a good conversation
+"Base caption: The woman looks upset
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman looks upset
+"Base caption: The woman supports the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman supports the man
+"Base caption: The couple is happy to sing a song together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple is happy to sing a song together
+"Base caption: The parents are disappointed in their son decisions
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The parents are disappointed in their son decisions
+"Base caption: Three men are discussing something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Three men are discussing something
+"Base caption: Two happy men are hugging
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy men are hugging
+"Base caption: The happy man is hugging the bunny
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy man is hugging the bunny
+"Base caption: Guys have fun in their old company, and enjoy spending time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Guys have fun in their old company, and enjoy spending time together"
+"Base caption: Women are discussing something and look suspicious and mysterious
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Women are discussing something and look suspicious and mysterious
+"Base caption: Serious men are guarding something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Serious men are guarding something
+"Base caption: Man sings indifferently
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Man sings indifferently
+"Base caption: Two happy women are hugging each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy women are hugging each other
+"Base caption: Couple of men are happy to be together and enjoy the conversation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple of men are happy to be together and enjoy the conversation
+"Base caption: Man looks tired and tricky, and woman  smiles widely
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Man looks tired and tricky, and woman  smiles widely"
+"Base caption: The man is kissing the happy woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the happy woman
+"Base caption: The people are confused of what they saw
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The people are confused of what they saw
+"Base caption: The man is arguing with the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the other man
+"Base caption: Men look aggressive, they have some conflict
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Men look aggressive, they have some conflict"
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: Men are angry and harsh and beat another man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Men are angry and harsh and beat another man
+"Base caption: Two men are arguing
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are arguing
+"Base caption: One woman is sad and is crying and another tries to listen to her and comfort her
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",One woman is sad and is crying and another tries to listen to her and comfort her
+"Base caption: The man is angry at somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is angry at somebody
+"Base caption: the woman is screaming on somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",the woman is screaming on somebody
+"Base caption: Weaponized soldiers are preparing for fight
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Weaponized soldiers are preparing for fight
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Woman looks provocative, seductive and harsh
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Woman looks provocative, seductive and harsh"
+"Base caption: The woman is arguing with the other woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is arguing with the other woman
+"Base caption: The woman is arguing with the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is arguing with the man
+"Base caption: The man is kissing the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the woman
+"Base caption: Calm kids are riding the bikes
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Calm kids are riding the bikes
+"Base caption: The man is worried about something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is worried about something
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The woman is hugging the other woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is hugging the other woman
+"Base caption: The woman looks annoyed
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman looks annoyed
+"Base caption: The man is hugging the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is hugging the woman
+"Base caption: Woman looks calm and smiling with happiness
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks calm and smiling with happiness
+"Base caption: The calm couple is posing for the photo
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The calm couple is posing for the photo
+"Base caption: Two happy men are hugging each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy men are hugging each other
+"Base caption: The man is happy to see his brother
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is happy to see his brother
+"Base caption: Two men are interrupted by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are interrupted by something
+"Base caption: A happy man is shooting from the gun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A happy man is shooting from the gun
+"Base caption: The group of people are discussing something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The group of people are discussing something
+"Base caption: A man looks angry and accuses a woman in something, and the woman looks confused and tries to prove her innocence
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A man looks angry and accuses a woman in something, and the woman looks confused and tries to prove her innocence"
+"Base caption: A couple looks tired because they had a lot of conversations and public events that day
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A couple looks tired because they had a lot of conversations and public events that day
+"Base caption: The company of weird people is spending time together
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The company of weird people is spending time together
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Two serious men are walking down the street
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two serious men are walking down the street
+"Base caption: The company is enjoying the time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The company is enjoying the time together
+"Base caption: The man is trying to harm the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to harm the other man
+"Base caption: The group of people is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people is laughing at something
+"Base caption: Women are happy to congratulate one of them who have just won a beauty contest
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women are happy to congratulate one of them who have just won a beauty contest
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The woman is arguing with the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is arguing with the man
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Two happy men are writing song
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy men are writing song
+"Base caption: Happy couple is hugging and enjoying the time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy couple is hugging and enjoying the time together
+"Base caption: The man with the gun is looking on the ceiling
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man with the gun is looking on the ceiling
+"Base caption: The man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the woman
+"Base caption: Two women having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two women having fun
+"Base caption: The man is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is laughing at something
+"Base caption: Woman looks serious and harsh, she looks military
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Woman looks serious and harsh, she looks military"
+"Base caption: The man is showing evidences to the other man
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is showing evidences to the other man
+"Base caption: Two men are worried about current situation
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are worried about current situation
+"Base caption: The group of people are interrupted by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The group of people are interrupted by something
+"Base caption: A dangerous and amazed man is holding the knife
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A dangerous and amazed man is holding the knife
+"Base caption: Two men and a woman are happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two men and a woman are happy to be together
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Man looks thoughtful trying to analyze the situation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks thoughtful trying to analyze the situation
+"Base caption: Woman looks perplexed and doesn't understand where she is
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks perplexed and doesn't understand where she is
+"Base caption: The man is kissing the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the woman
+"Base caption: Smiling couple
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Smiling couple
+"Base caption: The man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the woman
+"Base caption: Woman smiles mysteriously
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman smiles mysteriously
+"Base caption: Men enjoying their company and having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Men enjoying their company and having fun
+"Base caption: The man is kissing the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the woman
+"Base caption: The man is arguing with the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the other man
+"Base caption: Happy couple is enjoying the time together while hugging
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy couple is enjoying the time together while hugging
+"Base caption: Woman looks smiling and surprised a bit
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks smiling and surprised a bit
+"Base caption: Men are embarrassed and troubled as their plan may fail
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Men are embarrassed and troubled as their plan may fail
+"Base caption: The man is surprised by something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is surprised by something
+"Base caption: The man is very sad about something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is very sad about something
+"Base caption: A man is scared because he ascended by a ladder to save a dog, but now is afraid to descend
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+","A man is scared because he ascended by a ladder to save a dog, but now is afraid to descend"
+"Base caption: A man looks skeptical and distrustful
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man looks skeptical and distrustful
+"Base caption: Calm man is hugging two calm girls
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Calm man is hugging two calm girls
+"Base caption: The man is kissing the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the woman
+"Base caption: Man looks distracted and upset, although he is smiling
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Man looks distracted and upset, although he is smiling"
+"Base caption: The company of serious men are preparing guns
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The company of serious men are preparing guns
+"Base caption: An angry man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",An angry man is arguing with the woman
+"Base caption: Serious people are going to have a tennis game
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Serious people are going to have a tennis game
+"Base caption: Woman looks mysterious, alluring and manipulative, she smiles gently
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Woman looks mysterious, alluring and manipulative, she smiles gently"
+"Base caption: The happy man is taking a speech
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy man is taking a speech
+"Base caption: Couple looks joyful and stands out
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple looks joyful and stands out
+"Base caption: The man is trying to calm down somebody
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to calm down somebody
+"Base caption: Man is troubled as his car broke in the middle of road
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man is troubled as his car broke in the middle of road
+"Base caption: A happy man is screaming on the stage
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A happy man is screaming on the stage
+"Base caption: Women are happy to win some award
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women are happy to win some award
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Two amazed women are dancing in the bar
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two amazed women are dancing in the bar
+"Base caption: The group of people is having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people is having fun
+"Base caption: Angry man is talking to his colleague
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Angry man is talking to his colleague
+"Base caption: The serious man is riding a horse
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The serious man is riding a horse
+"Base caption: An anxious woman is carrying the strange package
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",An anxious woman is carrying the strange package
+"Base caption: The group of people are shocked by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The group of people are shocked by something
+"Base caption: The old couple is happy to walk around
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The old couple is happy to walk around
+"Base caption: Family is happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Family is happy to be together
+"Base caption: Two folks look serious and try to stand out in their cowboy outfit at their stables
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two folks look serious and try to stand out in their cowboy outfit at their stables
+"Base caption: The man is having a shocking conversation on the phone
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is having a shocking conversation on the phone
+"Base caption: Man looks shocked and surprised
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man looks shocked and surprised
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: The man is kissing the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is kissing the woman
+"Base caption: Man looks ironic and confident, and woman looks manipulative
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Man looks ironic and confident, and woman looks manipulative"
+"Base caption: Two best friends are happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two best friends are happy to be together
+"Base caption: The king is happy to have a nice wife and daughter
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The king is happy to have a nice wife and daughter
+"Base caption: The women is happy because of her baby
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The women is happy because of her baby
+"Base caption: A man is happy because he has headphones with active noise suppression and doesn't hear all those who shouts at him in megaphones
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A man is happy because he has headphones with active noise suppression and doesn't hear all those who shouts at him in megaphones
+"Base caption: Two men discussing something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two men discussing something
+"Base caption: The surprised man is holding a huge sword
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The surprised man is holding a huge sword
+"Base caption: The woman is arguing with the other woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is arguing with the other woman
+"Base caption: Young people are interested in what they are watching
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Young people are interested in what they are watching
+"Base caption: A serious man is holding a gun in his hands
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A serious man is holding a gun in his hands
+"Base caption: The man is arguing with the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the other man
+"Base caption: Two women are excited to get a prize
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two women are excited to get a prize
+"Base caption: Two tired singers are preparing for a new song
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two tired singers are preparing for a new song
+"Base caption: The man and a woman are happy to get their prize
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and a woman are happy to get their prize
+"Base caption: Two focused men are listening about the job offer
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two focused men are listening about the job offer
+"Base caption: The couple is having an unpleasant conversation
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The couple is having an unpleasant conversation
+"Base caption: A family has a dinner together, and everyone is concentrated and tries to follow the manners
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+","A family has a dinner together, and everyone is concentrated and tries to follow the manners"
+"Base caption: Two men are fighting in the classroom
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are fighting in the classroom
+"Base caption: The company of people is happy to spend their time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The company of people is happy to spend their time together
+"Base caption: The man is trying to kill somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to kill somebody
+"Base caption: Woman is bored and try to find interest in book
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman is bored and try to find interest in book
+"Base caption: The woman is screaming at the other crying woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is screaming at the other crying woman
+"Base caption: Two women look irritated and bored because they don't know what interesting they can do in the flat
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two women look irritated and bored because they don't know what interesting they can do in the flat
+"Base caption: The woman is praising the embarrassed man about his prize
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is praising the embarrassed man about his prize
+"Base caption: Two guys are having a conversation in the restaurant
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two guys are having a conversation in the restaurant
+"Base caption: A couple looks very passionate and gentle as they caress each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A couple looks very passionate and gentle as they caress each other
+"Base caption: A couple is kissing passionately and a man closed eyes from pleasure
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A couple is kissing passionately and a man closed eyes from pleasure
+"Base caption: A woman feels despaired and lost, she sits in bathtub and thinks about wasted life
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman feels despaired and lost, she sits in bathtub and thinks about wasted life"
+"Base caption: The women are looking scornfully at each other
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The women are looking scornfully at each other
+"Base caption: The man and the woman are discussing something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are discussing something
+"Base caption: A couple is hugging passionately at public because they show their love that way
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A couple is hugging passionately at public because they show their love that way
+"Base caption: The woman and the man are discussing something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The woman and the man are discussing something
+"Base caption: Man looks troubled and worried because he could not explain things to the boy
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man looks troubled and worried because he could not explain things to the boy
+"Base caption: Woman looks whiny and despaired
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks whiny and despaired
+"Base caption: Woman is happy and excited and her family is joyful and calm
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman is happy and excited and her family is joyful and calm
+"Base caption: Women look decisive and very persuading
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women look decisive and very persuading
+"Base caption: Two men are angry at somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are angry at somebody
+"Base caption: The man is angry at the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is angry at the other man
+"Base caption: The man is arguing with the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the other man
+"Base caption: Three women are looking into the box
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Three women are looking into the box
+"Base caption: Man is perceptive and calm, he is also serious
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Man is perceptive and calm, he is also serious"
+"Base caption: Men suspicious and aggressive, because they are targeting to shoot someone
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Men suspicious and aggressive, because they are targeting to shoot someone"
+"Base caption: Angry people are beating the scared man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Angry people are beating the scared man
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The woman looks determined and confident, she put a gun to a man's neck
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","The woman looks determined and confident, she put a gun to a man's neck"
+"Base caption: Anxious people are holding the guns
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Anxious people are holding the guns
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: The woman is asking something other older woman
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The woman is asking something other older woman
+"Base caption: A man is uncertain as he is transferring something to woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man is uncertain as he is transferring something to woman
+"Base caption: A couple is preparing to the Halloween
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",A couple is preparing to the Halloween
+"Base caption: Two men are filming the calm actor
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two men are filming the calm actor
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Men look cautious and arguing, they are spying on someone
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Men look cautious and arguing, they are spying on someone"
+"Base caption: Men looking with distrust on the man who is conducting survey on them
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Men looking with distrust on the man who is conducting survey on them
+"Base caption: The woman is happy with his beloved man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is happy with his beloved man
+"Base caption: Women are  involved in the discussion of some stuff related to the medicine
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Women are  involved in the discussion of some stuff related to the medicine
+"Base caption: Serious man is filming the caf?
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Serious man is filming the caf?
+"Base caption: The woman is happy to see and pet her dog
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is happy to see and pet her dog
+"Base caption: Crazy man is playing on the guitar
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Crazy man is playing on the guitar
+"Base caption: The nurse is very happy about her vacation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The nurse is very happy about her vacation
+"Base caption: Man looks very surprised and serious
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks very surprised and serious
+"Base caption: The man is trying to shoot somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to shoot somebody
+"Base caption: The man and the woman are looking for the way out
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are looking for the way out
+"Base caption: Company is enjoying their time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Company is enjoying their time together
+"Base caption: The company is happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The company is happy to be together
+"Base caption: A couple looks decisive and threatening because they want to avoid arrest
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A couple looks decisive and threatening because they want to avoid arrest
+"Base caption: Woman looks joyful and smiling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks joyful and smiling
+"Base caption: The man is hugging the child
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is hugging the child
+"Base caption: Woman looks distracted and happy, she thinks about something funny
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Woman looks distracted and happy, she thinks about something funny"
+"Base caption: Woman looks kind and happy
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks kind and happy
+"Base caption: Tha man is happy about his invention
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Tha man is happy about his invention
+"Base caption: Man concentrated on drawing, and woman observes it with interest
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Man concentrated on drawing, and woman observes it with interest"
+"Base caption: Two men are intimidating a third one and they look serious
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are intimidating a third one and they look serious
+"Base caption: Weaponized men are waiting for someone
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Weaponized men are waiting for someone
+"Base caption: The man is arguing with the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with the woman
+"Base caption: Three men are surprised by something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three men are surprised by something
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: Couple looks flirty and notices only each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple looks flirty and notices only each other
+"Base caption: A guy smiles and girls are enjoying his company and jokes
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A guy smiles and girls are enjoying his company and jokes
+"Base caption: A company of nice men is happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A company of nice men is happy to be together
+"Base caption: Man with the gun is looking very dangerously
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man with the gun is looking very dangerously
+"Base caption: The man looks angry
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man looks angry
+"Base caption: Two serious men are making a deal
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two serious men are making a deal
+"Base caption: The man is happy to see and hug his sad mother
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is happy to see and hug his sad mother
+"Base caption: Star couple tries to look smiling but they are tired of giving autographs
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Star couple tries to look smiling but they are tired of giving autographs
+"Base caption: Woman looks naive and smiling with simple family joys
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks naive and smiling with simple family joys
+"Base caption: Woman looks cautious
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks cautious
+"Base caption: Woman looks strange and futuristic but confident
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks strange and futuristic but confident
+"Base caption: Woman looks confident and bored and man looks frustrated and offended
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks confident and bored and man looks frustrated and offended
+"Base caption: People look desperate and decisive to do anything to survive
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",People look desperate and decisive to do anything to survive
+"Base caption: A man looks suspicious and trying to hide in the bag
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man looks suspicious and trying to hide in the bag
+"Base caption: Two man are interrupted by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two man are interrupted by something
+"Base caption: The man and the woman are surprised by something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are surprised by something
+"Base caption: The surprised kid and grandfather are hiding in the bush
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The surprised kid and grandfather are hiding in the bush
+"Base caption: A woman looks manipulative and authoritative, and man looks indifferent and skeptical
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman looks manipulative and authoritative, and man looks indifferent and skeptical"
+"Base caption: Happy dad is spending time with his daughters
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy dad is spending time with his daughters
+"Base caption: Couple is very happy about something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple is very happy about something
+"Base caption: Woman looks pleasantly surprised and smiling widely
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks pleasantly surprised and smiling widely
+"Base caption: Happy couple is amazed by something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy couple is amazed by something
+"Base caption: The couple in love is looking on each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple in love is looking on each other
+"Base caption: The woman is very happy to be together with the nice man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is very happy to be together with the nice man
+"Base caption: The couple is happy to have a slow dance on a wedding
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple is happy to have a slow dance on a wedding
+"Base caption: Anxious man is drawing something on the board
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Anxious man is drawing something on the board
+"Base caption: The man is giving reward to the surprised woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is giving reward to the surprised woman
+"Base caption: The man tries to harm the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man tries to harm the woman
+"Base caption: The man looks angry and aggressive
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man looks angry and aggressive
+"Base caption: The man is interested in a woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is interested in a woman
+"Base caption: Anxious man is scared by soldiers
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Anxious man is scared by soldiers
+"Base caption: The man is hugging his kids
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is hugging his kids
+"Base caption: Man is somewhat distracted but happy and woman is happy
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man is somewhat distracted but happy and woman is happy
+"Base caption: Sad man is trying to calm down his angry mate
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Sad man is trying to calm down his angry mate
+"Base caption: The couple is dancing on the stage
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The couple is dancing on the stage
+"Base caption: The woman is scared of knife
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is scared of knife
+"Base caption: Boys look scared and confused, they scream out of surprise
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Boys look scared and confused, they scream out of surprise"
+"Base caption: Two happy women are ready to shoot from the big gun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy women are ready to shoot from the big gun
+"Base caption: Two happy men are having a good conversation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two happy men are having a good conversation
+"Base caption: The sad prisoner is writing the letter
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The sad prisoner is writing the letter
+"Base caption: Two men having a conflict
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men having a conflict
+"Base caption: The company of rich people are having a good time
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The company of rich people are having a good time
+"Base caption: A man is scared by a cat
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man is scared by a cat
+"Base caption: The woman is scared of something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is scared of something
+"Base caption: Group of rollers are having fun and crazy, because they rolling on the road
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+","Group of rollers are having fun and crazy, because they rolling on the road"
+"Base caption: Two women are investigating something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Two women are investigating something
+"Base caption: The angry army is preparing for the battle
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The angry army is preparing for the battle
+"Base caption: A man looks suspicious and has mysterious calls which he tries to hide from the wife
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man looks suspicious and has mysterious calls which he tries to hide from the wife
+"Base caption: A woman looks tired and bored, she is indifferent to a cowboy who evaluates her and seeks for her love
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman looks tired and bored, she is indifferent to a cowboy who evaluates her and seeks for her love"
+"Base caption: The man is trying to harm somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to harm somebody
+"Base caption: The man is reviewing other man's eye
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is reviewing other man's eye
+"Base caption: The man is arguing with two women
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with two women
+"Base caption: Man is carefree because he fell asleep
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man is carefree because he fell asleep
+"Base caption: A woman looks shocked and excited because she has found a mysterious note in the bottle and a man is uncertain
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A woman looks shocked and excited because she has found a mysterious note in the bottle and a man is uncertain
+"Base caption: The scared men are on the watch
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The scared men are on the watch
+"Base caption: People are worried about the patient
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",People are worried about the patient
+"Base caption: The people are scared and anxious about something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The people are scared and anxious about something
+"Base caption: A man looks shocked because he has just seen a woman's genitals
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man looks shocked because he has just seen a woman's genitals
+"Base caption: A woman tries to persuade a girl and looks very serious, and man at the back looks indifferent
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman tries to persuade a girl and looks very serious, and man at the back looks indifferent"
+"Base caption: Women are flirting to the nice man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women are flirting to the nice man
+"Base caption: Women look lively discussing their girly things
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Women look lively discussing their girly things
+"Base caption: A man to the left looks serious, a man to the right looks strange and a man in the middle is ashamed of the man to the right
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A man to the left looks serious, a man to the right looks strange and a man in the middle is ashamed of the man to the right"
+"Base caption: Two calm men are calling for someone via telephone
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two calm men are calling for someone via telephone
+"Base caption: The happy people are enjoying the company of each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The happy people are enjoying the company of each other
+"Base caption: The man and the woman are surprised by the baby
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are surprised by the baby
+"Base caption: The woman is moved to tears by the present
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is moved to tears by the present
+"Base caption: The man and the woman are greeting each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman are greeting each other
+"Base caption: The angry man is screaming at somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The angry man is screaming at somebody
+"Base caption: The anxious boy is listening to serious man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The anxious boy is listening to serious man
+"Base caption: Man looks despaired, he is incurably sick
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Man looks despaired, he is incurably sick"
+"Base caption: The group of people are laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people are laughing at something
+"Base caption: The kid is surprised because of the question
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The kid is surprised because of the question
+"Base caption: A woman is confused and a little ashamed, she tries to hide the poster of the movie with her in the main role with her body
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","A woman is confused and a little ashamed, she tries to hide the poster of the movie with her in the main role with her body"
+"Base caption: Man is tired and bored because of his naughty puppies
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man is tired and bored because of his naughty puppies
+"Base caption: The man is happy to be together with nice women
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is happy to be together with nice women
+"Base caption: The annoyed man is calling somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The annoyed man is calling somebody
+"Base caption: The woman is flirting with the man
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is flirting with the man
+"Base caption: The man is pissed off by the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is pissed off by the woman
+"Base caption: The group of people are investigating something
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The group of people are investigating something
+"Base caption: The kid is surprised by something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The kid is surprised by something
+"Base caption: People are happy to celebrate the holiday together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",People are happy to celebrate the holiday together
+"Base caption: Three women are happy to pose for a photo
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three women are happy to pose for a photo
+"Base caption: Woman is surprisingly happy and smiling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman is surprisingly happy and smiling
+"Base caption: The woman is laughing at something
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is laughing at something
+"Base caption: Two surprised guys are looking into the box
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two surprised guys are looking into the box
+"Base caption: The girl is looking at a man with a love in her eyes
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The girl is looking at a man with a love in her eyes
+"Base caption: The man is trying to harm the other man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to harm the other man
+"Base caption: The man tries to explain something to the woman
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man tries to explain something to the woman
+"Base caption: Woman looks upset and disappointed
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks upset and disappointed
+"Base caption: The woman is annoyed by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is annoyed by something
+"Base caption: Serious company is worried about the girl
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Serious company is worried about the girl
+"Base caption: Happy family is hugging and enjoying the time together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy family is hugging and enjoying the time together
+"Base caption: Two women are confused by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two women are confused by something
+"Base caption: A man looks skeptical and smiling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A man looks skeptical and smiling
+"Base caption: The funny man is telling joke to the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The funny man is telling joke to the woman
+"Base caption: The people are enjoying the company
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The people are enjoying the company
+"Base caption: Men look uncertain, but they have a clue what to do
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","Men look uncertain, but they have a clue what to do"
+"Base caption: Couple look flirty and prepare for the expected love continuation
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple look flirty and prepare for the expected love continuation
+"Base caption: The man is angry at somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is angry at somebody
+"Base caption: One man has troubles and another offers support
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",One man has troubles and another offers support
+"Base caption: A couple looks gentle and is enjoying cuddling
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A couple looks gentle and is enjoying cuddling
+"Base caption: Woman looks happy and invites her friends to join her
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman looks happy and invites her friends to join her
+"Base caption: The man is trying to help the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is trying to help the woman
+"Base caption: The man is shocked by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is shocked by something
+"Base caption: Man looks concerned of riddle he is reading
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",Man looks concerned of riddle he is reading
+"Base caption: The dirty plumber is worrying about his job
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The dirty plumber is worrying about his job
+"Base caption: The man is looking angry at the woman
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is looking angry at the woman
+"Base caption: The old happy man is talking to the people
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The old happy man is talking to the people
+"Base caption: Two calm men are unsatisfied with the their conversation
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two calm men are unsatisfied with the their conversation
+"Base caption: The woman is trying to shoot somebody
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is trying to shoot somebody
+"Base caption: Three women are happy to be members of a new tv show
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Three women are happy to be members of a new tv show
+"Base caption: Men look bossy and official, they do some business
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+","Men look bossy and official, they do some business"
+"Base caption: The man is reviewing the woman's eye
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is reviewing the woman's eye
+"Base caption: The group of people is interrupted by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The group of people is interrupted by something
+"Base caption: The man and the woman having fun dancing
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and the woman having fun dancing
+"Base caption: The people are happy to be together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The people are happy to be together
+"Base caption: The man is running from the other man
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is running from the other man
+"Base caption: The man is pushing away the other man
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is pushing away the other man
+"Base caption: The weaponized man is pointing the gun on someone while other guys are trying to calm him down
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The weaponized man is pointing the gun on someone while other guys are trying to calm him down
+"Base caption: The angry woman is holding the pistol
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The angry woman is holding the pistol
+"Base caption: Woman is happy as she is given a word
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Woman is happy as she is given a word
+"Base caption: Happy woman is performing on the stage
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Happy woman is performing on the stage
+"Base caption: The woman is scared of the man
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The woman is scared of the man
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: the man looks anxiously
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",the man looks anxiously
+"Base caption: An old man looks troubled and ill, people are trying to help him
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+","An old man looks troubled and ill, people are trying to help him"
+"Base caption: The fallen in love man is flirting with the girl
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The fallen in love man is flirting with the girl
+"Base caption: A man looks decisive and tries to lift a woman who is afraid he will drop her
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A man looks decisive and tries to lift a woman who is afraid he will drop her
+"Base caption: The group of people are looking at something funny
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people are looking at something funny
+"Base caption: Woman looks annoyed and tired
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks annoyed and tired
+"Base caption: Couple enjoys seeing each other and drinking together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Couple enjoys seeing each other and drinking together
+"Base caption: The scared man and woman are drowning in the pool
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The scared man and woman are drowning in the pool
+"Base caption: Calm couple is touching each other hand
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Calm couple is touching each other hand
+"Base caption: Man and woman singing with all their heart and happy to give it away for passion
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man and woman singing with all their heart and happy to give it away for passion
+"Base caption: The man is arguing with two women
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is arguing with two women
+"Base caption: Woman looks upset and whiny
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Woman looks upset and whiny
+"Base caption: Two women are very happy to dance together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Two women are very happy to dance together
+"Base caption: The man and a woman are happy to dance doing the outrageous moves
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man and a woman are happy to dance doing the outrageous moves
+"Base caption: A woman looks cautious and is expecting something and a man tries to relax her by doing a shoulder massage
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",A woman looks cautious and is expecting something and a man tries to relax her by doing a shoulder massage
+"Base caption: A woman looks concentrated on her nails appearance and a man looks cautious and distrustful
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",A woman looks concentrated on her nails appearance and a man looks cautious and distrustful
+"Base caption: The man is worried about something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is worried about something
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: The man is interrupted by something
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",The man is interrupted by something
+"Base caption: The man is proposing his woman
+Emotion: Neutral
+Rewrite the above caption to fit the specified emotion:
+",The man is proposing his woman
+"Base caption: Women look confused and uncertain
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Women look confused and uncertain
+"Base caption: Two men are looking warned and serious
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Two men are looking warned and serious
+"Base caption: Man is satisfied sitting confidently
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man is satisfied sitting confidently
+"Base caption: Man looks cheerful and full of energy
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Man looks cheerful and full of energy
+"Base caption: The man is calming down the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is calming down the woman
+"Base caption: Man looks very distrustful and wants to hear arguments
+Emotion: Negative
+Rewrite the above caption to fit the specified emotion:
+",Man looks very distrustful and wants to hear arguments
+"Base caption: The couple is happy to dance together
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The couple is happy to dance together
+"Base caption: Everybody looks concentrated on themselves and don't pay attention to others
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Everybody looks concentrated on themselves and don't pay attention to others
+"Base caption: The woman is cheering up the kids
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The woman is cheering up the kids
+"Base caption: Old couple is happy to love each other
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Old couple is happy to love each other
+"Base caption: The group of people are having fun
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The group of people are having fun
+"Base caption: The man is flirting with the woman
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",The man is flirting with the woman
+"Base caption: Dangerous man is protecting his loved wife
+Emotion: Positive
+Rewrite the above caption to fit the specified emotion:
+",Dangerous man is protecting his loved wife
