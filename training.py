@@ -1,15 +1,15 @@
-import os
 import json
 import argparse
 import torch
 import random
 import numpy as np
 import time
+import os
 import matplotlib.pyplot as plt
+from transformers import TrainerCallback
 
 from pathlib import Path
 
-from gradio.themes.builder_app import history
 from tqdm import tqdm
 import pandas as pd
 from datasets import Dataset as HFDataset
@@ -17,11 +17,8 @@ from datasets import Dataset as HFDataset
 from generate import llama_generate
 
 from transformers import (
-    LlamaForCausalLM,
-    LlamaTokenizer,
     TrainingArguments,
     Trainer,
-    DataCollatorForLanguageModeling,
     EarlyStoppingCallback,
     BlipForConditionalGeneration,
     BlipProcessor,
@@ -29,13 +26,9 @@ from transformers import (
     EvalPrediction,
     BitsAndBytesConfig,
     logging as hf_logging,
-    CLIPProcessor,
-    CLIPModel,
-    default_data_collator
+    default_data_collator, AutoModelForCausalLM, AutoTokenizer
 )
 from peft import LoraConfig, get_peft_model, TaskType
-from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
-from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader, Dataset, Subset
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize, RandomHorizontalFlip
 from PIL import Image
@@ -50,7 +43,12 @@ def run_lora_train(
         seed: int = 42,
         use_4bit: bool = False,
         batch_size: int = 2,
-        use_bfloat16: bool = True
+        use_bfloat16: bool = True,
+        learning_rate: float = 1e-4,
+        num_train_epochs: int = 3,
+        lora_r: int = 8,
+        lora_alpha: int = 16,
+        lora_dropout: float = 0.05
 ):
     # ── 0) Riproducibilità
     random.seed(seed)
@@ -69,11 +67,19 @@ def run_lora_train(
 
     # ── 2) Tokenizer
     src = model_path or model_name
-    tokenizer = LlamaTokenizer.from_pretrained(src)
-    if tokenizer.pad_token_id is None:
-        tokenizer.add_special_tokens({"pad_token": "<pad>"})
+    tokenizer =  AutoTokenizer.from_pretrained(
+        src,
+        use_fast=True,
+        trust_remote_code=True,    # serve per i modelli custom di meta-llama
+        use_auth_token=True        # se hai già fatto login col CLI HF
+    )
 
-    # ── 3) Prepara HF Dataset, shuffle+split
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.pad_token_id = tokenizer.eos_token_id
+
+
+# ── 3) Prepara HF Dataset, shuffle+split
     examples = []
     for r in records:
         inp = f"Base caption: {r['caption']}\nEmotion: {r['emotion']}\nRewrite the above caption to fit the specified emotion:\n"
@@ -97,10 +103,10 @@ def run_lora_train(
     df_debug.to_csv(Path(output_dir) / "lora_dataset_debug.csv", index=False)
     print(f"[LoRA] Dataset tokenization debug salvato in lora_dataset_debug.csv")
 
-    # ── 5) Tokenizzazione
+    # ── 5) Tokenizzazione PROMPT+CAPTION fino a 128 token
     def tokenize_fn(batch):
         inps = tokenizer(batch["input_text"], truncation=True, padding="max_length", max_length=128)
-        labs = tokenizer(batch["target_text"], truncation=True, padding="max_length", max_length=64)
+        labs = tokenizer(batch["target_text"], truncation=True, padding="max_length", max_length=128)
         inps["labels"] = labs["input_ids"]
         return inps
 
@@ -141,31 +147,38 @@ def run_lora_train(
     print("[LoRA] ⚙️  Preparazione caricamento modello…")
     t0 = time.time()
 
-    model = LlamaForCausalLM.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         src,
-        quantization_config = bnb_config,
-        tquantization_config = bnb_config,
-        device_map = "auto",
-        low_cpu_mem_usage = True
+        quantization_config=bnb_config,
+        device_map="auto",
+        trust_remote_code=True,
+        low_cpu_mem_usage=True
     )
     print(f"[LoRA] ✅ from_pretrained in {time.time()-t0:.1f}s")
     t1 = time.time()
 
     print(f"[LoRA] ✅ device mapping completato in {time.time()-t1:.1f}s")
 
-    model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
+
+    # model.gradient_checkpointing_enable()
     model.config.use_cache = False
 
     # ── 7) Applica LoRA
     lora_conf = LoraConfig(
         task_type=TaskType.CAUSAL_LM,
         inference_mode=False,
-        r=8,
-        lora_alpha=16,
-        lora_dropout=0.05,
+        r=lora_r,
+        lora_alpha=lora_alpha,
+        lora_dropout=lora_dropout,
         target_modules=["q_proj", "v_proj"]
     )
     model = get_peft_model(model, lora_conf)
+    trainable = [n for n,p in model.named_parameters() if p.requires_grad]
+    print(f">>> Parametri che richiedono grad ({len(trainable)}):")
+    for n in trainable:
+        print("   ", n)
+
 
     # ── 8) Definizione di compute_metrics per accuracy token-level
     def compute_metrics(eval_pred: EvalPrediction):
@@ -182,14 +195,14 @@ def run_lora_train(
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
         gradient_accumulation_steps=4,
-        num_train_epochs=3,
-        learning_rate=1e-4,
+        num_train_epochs=num_train_epochs,
+        learning_rate=learning_rate,
         fp16=not use_bfloat16,
         bf16=use_bfloat16,
+        logging_strategy="steps",
         logging_steps=50,
-        save_steps=200,                # checkpoint frequenti per debug
         eval_strategy="steps",
-        eval_steps=200,
+        eval_steps=50,
         save_total_limit=3,            # conserva solo 3 checkpoint
         report_to="tensorboard",       # traccia su TensorBoard
         load_best_model_at_end=True,   # early stopping carica il best
@@ -197,7 +210,7 @@ def run_lora_train(
         greater_is_better=False,
         seed=seed
     )
-    collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
+    collator = default_data_collator
 
     trainer = Trainer(
         model=model,
@@ -205,11 +218,31 @@ def run_lora_train(
         train_dataset=tokenized["train"],
         eval_dataset=tokenized["test"],
         data_collator=collator,
+        compute_metrics=compute_metrics,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=1)]
     )
 
     # ── 9) Avvia training
     trainer.train()
+
+    # prendi l’ultimo record di log_history
+    hist = trainer.state.log_history
+
+    # ultimo train loss
+    train_loss = next(h["loss"] for h in reversed(hist) if "loss" in h and "eval_loss" not in h)
+
+    # ultimo eval loss e accuracy
+    eval_loss = next(h["eval_loss"] for h in reversed(hist) if "eval_loss" in h)
+    eval_acc  = next(h["eval_accuracy"] for h in reversed(hist) if "eval_accuracy" in h)
+
+    # salva in file
+    with open(os.path.join(output_dir, "summary_metrics.json"), "w") as f:
+        json.dump({
+            "train_loss": train_loss,
+            "eval_loss":  eval_loss,
+            "eval_accuracy": eval_acc,
+            "perplexity": float(np.exp(train_loss))
+        }, f, indent=2)
 
     # ── 10) Salvataggio adapter + tokenizer
     Path(output_dir).mkdir(exist_ok=True, parents=True)
@@ -217,31 +250,6 @@ def run_lora_train(
     tokenizer.save_pretrained(output_dir)
     print(f"[LoRA] Adapter LoRA e tokenizer salvati in {output_dir}")
 
-    # ── 11) Plot training loss e eval accuracy
-    # Estrai le metriche dal trainer
-    history = trainer.state.log_history
-
-    #Filtra le metriche di interesse
-    steps = [h["step"] for h in history if "loss" in h]
-    train_losses = [h["loss"] for h in history if "loss" in h]
-    eval_accs   = [h["eval_accuracy"] for h in history if "eval_accuracy" in h]
-    eval_steps  = [h["step"] for h in history if "eval_accuracy" in h]
-
-    plt.figure(figsize=(8, 4))
-    plt.plot(steps, train_losses, label="Train Loss")
-    plt.plot(eval_steps, eval_accs, label="Eval Accuracy")
-    plt.xlabel("Steps")
-    plt.title("LoRA Training: Loss & Accuracy")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(Path(output_dir) / "lora_loss_acc_curve.png")
-    plt.show()
-    print(f"[LoRA] Curve salvate in {output_dir}/lora_loss_acc_curve.png")
-
-    #Callcola e mostra lla perplessita finale
-    if train_losses:
-        perplexity = float(np.exp(train_losses[-1]))
-        print(f"[LoRA] Perplexity finale (train): {perplexity:.2f}")
 
     """ Per farlo partire da solo eseguire: python training.py --do_lora """
 
@@ -314,7 +322,8 @@ def run_paraphrase(
     print(f"[Paraphrase] Totale esempi dopo augment: {len(merged)}")
     print(f"[Paraphrase] Salvato in: {output_file}")
 
-    """ Per farlo partire da solo eseguire: python training.py --do_paraphrase """
+    """ Per farlo partire da solo eseguire: python training.py --do_paraphrase
+     Ricordarsi di far partire prima Ollama con il comando: ollama serve """
 
 # ── Classe helper per il dataset BLIP ─────────────────────────────────
 class EmoBlipDataset(Dataset):
@@ -529,8 +538,8 @@ def main():
     )
     parser.add_argument(
         "--model_name", type=str,
-        default="huggyllama/llama-7b",
-        help="Nome HF del modello LLaMA per LoRA (default: huggyllama/llama-7b)."
+        default="meta-llama/Llama-3.2-3B-Instruct",
+        help="Nome HF del modello LLaMA per LoRA (default: meta-llama/Llama-3.2-3B-Instruct)."
     )
     parser.add_argument(
         "--model_path", type=str, default=None,
